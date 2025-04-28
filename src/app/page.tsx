@@ -38,7 +38,7 @@ export default function LoginPage() {
 
   return (
     <main className="container">
-      <h1>Login</h1>
+      <h1>Login NovaLearn</h1>
       {error && <p className="error">{error}</p>}
 
       <form onSubmit={handleSubmit}>
